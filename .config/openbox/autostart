@@ -1,0 +1,8 @@
+setxkbmap -model jp106 -layout jp &
+(compton) &
+tint2 &
+#(sleep 1s && ~/.config/polybar/launch.sh) &
+pcmanfm --desktop &
+fcitx-autostart &
+copyq &
+urxvtd -o -f &
